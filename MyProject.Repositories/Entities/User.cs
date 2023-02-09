@@ -4,9 +4,6 @@ using System.Text;
 
 namespace MyProject.Repositories.Entities
 {
-    //public enum kinds {girl, boy}
-    //public enum HMOS { clalit, meuhedet, macabi, leumit }
-
     public class User
     {
         public int Id { get; set; }
