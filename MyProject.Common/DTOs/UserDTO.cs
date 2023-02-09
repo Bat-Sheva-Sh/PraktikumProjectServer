@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace MyProject.Common.DTOs
 {
-    //public enum kinds { girl, boy }
-    //public enum HMOS { clalit, meuhedet, macabi, leumit }
-
     public class UserDTO
     {
         public int Id { get; set; }
