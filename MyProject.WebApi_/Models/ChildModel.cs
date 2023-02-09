@@ -13,6 +13,5 @@ namespace MyProject.WebApi_.Models
         public DateTime DateOfBirth { get; set; }
         [ForeignKey("Parent")]
         public int ParentId { get; set; }
-        public UserModel Parent { get; set; }
     }
 }
